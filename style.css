@@ -23,9 +23,12 @@ body
 
 .card
 {
+  display: flex;
+  flex-direction: column;
   background-color: hsl(0, 0%, 12%);
   max-width: 385px;
   width: 90%;
   padding: 1rem;
   border-radius: 1.25rem;
+  justify-items: center;
 }
