@@ -20,3 +20,12 @@ body
   position: absolute;
   bottom: 0;
 }
+
+.card
+{
+  background-color: hsl(0, 0%, 12%);
+  max-width: 385px;
+  width: 90%;
+  padding: 1rem;
+  border-radius: 1.25rem;
+}
