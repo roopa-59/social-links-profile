@@ -13,7 +13,7 @@ body
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  font-family: "Inter", sans-serif
+  font-family: "Inter", sans-serif;
 }
 
 body p
@@ -26,8 +26,10 @@ body p
   font-size: 0.6875rem;
   text-align: center;
   color: hsl(228, 45%, 44%); 
-  position: absolute;
-  bottom: 0;
+  position: fixed;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .card
@@ -35,11 +37,10 @@ body p
   display: flex;
   flex-direction: column;
   background-color: hsl(0, 0%, 12%);
-  max-width: 385px;
+  max-width: 375px;
   width: 90%;
-  padding: 1rem;
+  padding: 2rem;
   border-radius: 1.25rem;
-  justify-items: center;
 }
 
 .author
@@ -59,14 +60,21 @@ body p
 {
   height: 6rem;
   width: 6rem;
-  border-radius: 6rem;
+  border-radius: 50%;
   margin-top: 1rem;
 }
 
 .author-name, .auth-desc
 {
   color: hsl(0, 0%, 100%);
-  margin-top: 1.5rem;
+}
+
+.author-name {
+    margin-top: 1.25rem;
+}
+
+.auth-desc {
+    margin-top: 1.4rem;
 }
 
 .auth-location
@@ -86,10 +94,19 @@ body p
 .btn-primary
 {
   height: 2.5rem;
+  width: 100%;
   background-color: hsl(0, 0%, 20%);
   color: hsl(0, 0%, 100%);
-  margin: 0.5rem;
+  margin: 0.5rem 0;
   border: none;
-  border-radius: 0.6rem;
-  font-weight: 600;
+  border-radius: 0.5rem;
+  font-weight: 700;
+  transition: background-color .25s, color .25s;
+}
+
+.btn-primary:active, .btn-primary:hover
+{
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 8%);
+  cursor: pointer;
 }
