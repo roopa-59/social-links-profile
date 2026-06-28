@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 *
 {
   margin: 0;
@@ -12,6 +13,7 @@ body
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  font-family: "Inter", sans-serif
 }
 
 body p
@@ -48,6 +50,11 @@ body p
   align-items: center;
 }
 
+.author h2
+{
+  font-weight: 600;
+}
+
 .author-img
 {
   height: 6rem;
@@ -66,6 +73,7 @@ body p
 {
   color: hsl(75, 94%, 57%);
   margin: 0.50rem;
+  font-weight: 700;
 }
 
 .links
@@ -83,4 +91,5 @@ body p
   margin: 0.5rem;
   border: none;
   border-radius: 0.6rem;
+  font-weight: 600;
 }
