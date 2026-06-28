@@ -14,6 +14,11 @@ body
   min-height: 100vh;
 }
 
+body p
+{
+  font-size: 14px;
+}
+
 .attribution
 {
   font-size: 0.6875rem;
@@ -60,7 +65,7 @@ body
 .auth-location
 {
   color: hsl(75, 94%, 57%);
-  margin: 0;
+  margin: 0.50rem;
 }
 
 .links
