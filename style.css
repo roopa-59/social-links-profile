@@ -34,3 +34,10 @@ body
   border-radius: 1.25rem;
   justify-items: center;
 }
+
+.author
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
