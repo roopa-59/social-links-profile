@@ -49,3 +49,13 @@ body
   width: 4rem;
   border-radius: 4rem;
 }
+
+.author-name, .auth-desc
+{
+  color: hsl(0, 0%, 100%);
+}
+
+.auth-location
+{
+  color: hsl(75, 94%, 57%);
+}
