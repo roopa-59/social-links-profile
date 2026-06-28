@@ -59,3 +59,10 @@ body
 {
   color: hsl(75, 94%, 57%);
 }
+
+.links
+{
+  display: flex;
+  flex-direction: column;
+  margin: 0.75rem;
+}
