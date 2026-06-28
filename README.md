@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: 
+- Solution URL: https://github.com/roopa-59/social-links-profile
 - Live Site URL: (https://roopa-59.github.io/social-links-profile/)
 
 ## My process
