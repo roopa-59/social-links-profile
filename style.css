@@ -48,16 +48,19 @@ body
   height: 4rem;
   width: 4rem;
   border-radius: 4rem;
+  margin-top: 1rem;
 }
 
 .author-name, .auth-desc
 {
   color: hsl(0, 0%, 100%);
+  margin-top: 1.5rem;
 }
 
 .auth-location
 {
   color: hsl(75, 94%, 57%);
+  margin: 0;
 }
 
 .links
